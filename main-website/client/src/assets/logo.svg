@@ -1,0 +1,33 @@
+<svg width="270" height="48" viewBox="0 0 270 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="60%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="goldAlo" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+  </defs>
+
+  <!-- Hospital Alo / Medical Shield Emblem -->
+  <g transform="translate(2, 2)">
+    <!-- Base Shield -->
+    <rect x="0" y="0" width="44" height="44" rx="12" fill="url(#shieldGrad)" />
+    
+    <!-- Light Ray Aura -->
+    <circle cx="22" cy="22" r="15" fill="white" fill-opacity="0.12" />
+    
+    <!-- Bold Pristine Medical Cross -->
+    <rect x="18" y="10" width="8" height="24" rx="3" fill="#ffffff" />
+    <rect x="10" y="18" width="24" height="8" rx="3" fill="#ffffff" />
+    
+    <!-- Central Glowing "Alo" (Light) Star -->
+    <circle cx="22" cy="22" r="2.8" fill="url(#goldAlo)" />
+  </g>
+
+  <!-- Hospital Brand Typography -->
+  <text x="56" y="23" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="900" fill="#071328" letter-spacing="0.5">BANGLAR ALO</text>
+  <text x="56.5" y="39" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#2563eb" letter-spacing="3.5">HOSPITAL</text>
+</svg>

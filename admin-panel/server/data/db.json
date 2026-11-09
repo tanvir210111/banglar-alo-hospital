@@ -1,0 +1,862 @@
+{
+  "doctors": [
+    {
+      "address": {
+        "line1": "House 12, Road 5, Dhanmondi, Dhaka",
+        "line2": "Dhaka, Bangladesh"
+      },
+      "image": "/doctors/doc9.png",
+      "time": "04:00 PM - 08:00 PM",
+      "specialist": "Dermatologist",
+      "fees": 80,
+      "fee": "800",
+      "name": "Dr. Sabrina Sultana",
+      "gender": "female",
+      "salary": "170000",
+      "degrees": [
+        "MBBS",
+        "FCPS (Dermatology)"
+      ],
+      "phone": "+880 1718-998877",
+      "age": "39",
+      "approved": "true",
+      "speciality": "Dermatologist",
+      "email": "dr.sabrina@banglaralo.hospital.bd",
+      "_id": "doc_1794140353910",
+      "degree": "MBBS, FCPS (Dermatology)",
+      "experience": "11 Years",
+      "about": "Dr. Dr. Sabrina Sultana has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
+      "available": true,
+      "slots_booked": {}
+    },
+    {
+      "_id": "doc1",
+      "name": "Dr. Richard James",
+      "email": "richard.james@banglaralo.hospital.bd",
+      "phone": "+880 1711-100001",
+      "fee": "500",
+      "fees": 50,
+      "age": "45",
+      "specialist": "General physician",
+      "speciality": "General physician",
+      "address": {
+        "line1": "17th Cross, Panthapath",
+        "line2": "Dhanmondi, Dhaka-1205"
+      },
+      "degree": "MBBS, FCPS (Medicine)",
+      "degrees": [
+        "MBBS",
+        "FCPS (Medicine)"
+      ],
+      "experience": "4 Years",
+      "about": "Dr. Richard James has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
+      "salary": "150000",
+      "time": "09:00 AM - 01:00 PM",
+      "gender": "male",
+      "image": "/doctors/doc1.png",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-01-10",
+      "slots_booked": {
+        "15_11_2026": [
+          "10:30 am"
+        ]
+      }
+    },
+    {
+      "_id": "doc2",
+      "name": "Dr. Emily Larson",
+      "email": "emily.larson@banglaralo.hospital.bd",
+      "phone": "+880 1819-100002",
+      "fee": "600",
+      "fees": 60,
+      "age": "39",
+      "specialist": "Gynecologist",
+      "speciality": "Gynecologist",
+      "address": {
+        "line1": "27th Cross, Green Road",
+        "line2": "Panthapath, Dhaka-1205"
+      },
+      "degree": "MBBS, MS (Gynecology)",
+      "degrees": [
+        "MBBS",
+        "MS (Gynecology)",
+        "FCPS"
+      ],
+      "experience": "3 Years",
+      "about": "Dr. Emily Larson is dedicated to women's reproductive health, prenatal care, and modern gynecological treatments with personalized patient care.",
+      "salary": "180000",
+      "time": "03:00 PM - 07:00 PM",
+      "gender": "female",
+      "image": "/doctors/doc2.png",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-01-12",
+      "slots_booked": {}
+    },
+    {
+      "_id": "doc3",
+      "name": "Dr. Sarah Patel",
+      "email": "sarah.patel@banglaralo.hospital.bd",
+      "phone": "+880 1911-100003",
+      "fee": "400",
+      "fees": 30,
+      "age": "36",
+      "specialist": "Dermatologist",
+      "speciality": "Dermatologist",
+      "address": {
+        "line1": "37th Cross, Gulshan-1",
+        "line2": "Dhaka-1212"
+      },
+      "degree": "MBBS, DDV (Dermatology)",
+      "degrees": [
+        "MBBS",
+        "DDV",
+        "MCPS"
+      ],
+      "experience": "1 Years",
+      "about": "Dr. Sarah Patel provides expert dermatological consultations, aesthetic skincare, and treatment for chronic dermatological conditions.",
+      "salary": "140000",
+      "time": "10:00 AM - 02:00 PM",
+      "gender": "female",
+      "image": "/doctors/doc3.png",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-01-15",
+      "slots_booked": {}
+    },
+    {
+      "_id": "doc4",
+      "name": "Dr. Christopher Lee",
+      "email": "christopher.lee@banglaralo.hospital.bd",
+      "phone": "+880 1612-100004",
+      "fee": "500",
+      "fees": 40,
+      "age": "41",
+      "specialist": "Pediatricians",
+      "speciality": "Pediatricians",
+      "address": {
+        "line1": "47th Cross, Uttara Sector 4",
+        "line2": "Dhaka-1230"
+      },
+      "degree": "MBBS, MD (Pediatrics)",
+      "degrees": [
+        "MBBS",
+        "MD (Pediatrics)",
+        "DCH"
+      ],
+      "experience": "2 Years",
+      "about": "Dr. Christopher Lee is a gentle and experienced pediatrician specializing in newborn wellness, pediatric immunization, and adolescent medicine.",
+      "salary": "160000",
+      "time": "04:00 PM - 08:00 PM",
+      "gender": "male",
+      "image": "/doctors/doc4.png",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-02-01",
+      "slots_booked": {}
+    },
+    {
+      "_id": "doc5",
+      "name": "Dr. Jennifer Garcia",
+      "email": "jennifer.garcia@banglaralo.hospital.bd",
+      "phone": "+880 1715-100005",
+      "fee": "700",
+      "fees": 50,
+      "age": "48",
+      "specialist": "Neurologist",
+      "speciality": "Neurologist",
+      "address": {
+        "line1": "57th Cross, Mirpur DOHS",
+        "line2": "Dhaka-1216"
+      },
+      "degree": "MBBS, FCPS (Neuro)",
+      "degrees": [
+        "MBBS",
+        "FCPS (Neuro)",
+        "MRCP"
+      ],
+      "experience": "4 Years",
+      "about": "Dr. Jennifer Garcia has deep expertise in managing neurological disorders, epilepsy, headache syndromes, and stroke rehabilitation.",
+      "salary": "220000",
+      "time": "05:00 PM - 09:00 PM",
+      "gender": "female",
+      "image": "/doctors/doc5.png",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-02-15",
+      "slots_booked": {}
+    },
+    {
+      "_id": "doc6",
+      "name": "Dr. Andrew Williams",
+      "email": "andrew.williams@banglaralo.hospital.bd",
+      "phone": "+880 1814-100006",
+      "fee": "600",
+      "fees": 50,
+      "age": "44",
+      "specialist": "Gastroenterologist",
+      "speciality": "Gastroenterologist",
+      "address": {
+        "line1": "67th Cross, Banani Block C",
+        "line2": "Dhaka-1213"
+      },
+      "degree": "MBBS, MD (Gastroenterology)",
+      "degrees": [
+        "MBBS",
+        "MD (Gastroenterology)",
+        "FACG"
+      ],
+      "experience": "4 Years",
+      "about": "Dr. Andrew Williams offers advanced endoscopic evaluations, digestive health diagnostics, and therapeutic care for gastrointestinal disorders.",
+      "salary": "200000",
+      "time": "06:00 PM - 10:00 PM",
+      "gender": "male",
+      "image": "/doctors/doc6.png",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-03-01",
+      "slots_booked": {}
+    },
+    {
+      "_id": "doc7",
+      "name": "Dr. Christopher Davis",
+      "email": "christopher.davis@banglaralo.hospital.bd",
+      "phone": "+880 1912-100007",
+      "fee": "500",
+      "fees": 50,
+      "age": "43",
+      "specialist": "General physician",
+      "speciality": "General physician",
+      "address": {
+        "line1": "12th Avenue, Mohakhali",
+        "line2": "Dhaka-1212"
+      },
+      "degree": "MBBS, BCS (Health)",
+      "degrees": [
+        "MBBS",
+        "BCS (Health)"
+      ],
+      "experience": "4 Years",
+      "about": "Dr. Christopher Davis specializes in family medicine, chronic disease management, and seasonal health treatment.",
+      "salary": "150000",
+      "time": "10:00 AM - 02:00 PM",
+      "gender": "male",
+      "image": "/doctors/doc7.png",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-03-10",
+      "slots_booked": {}
+    },
+    {
+      "_id": "doc8",
+      "name": "Dr. Timothy White",
+      "email": "timothy.white@banglaralo.hospital.bd",
+      "phone": "+880 1613-100008",
+      "fee": "650",
+      "fees": 60,
+      "age": "47",
+      "specialist": "Gynecologist",
+      "speciality": "Gynecologist",
+      "address": {
+        "line1": "House 18, Road 3, Dhanmondi",
+        "line2": "Dhaka-1205"
+      },
+      "degree": "MBBS, FCPS (OBGYN)",
+      "degrees": [
+        "MBBS",
+        "FCPS (OBGYN)",
+        "MS"
+      ],
+      "experience": "3 Years",
+      "about": "Dr. Timothy White is an experienced obstetrician dedicated to maternal-fetal medicine and high-risk pregnancy care.",
+      "salary": "190000",
+      "time": "04:30 PM - 08:30 PM",
+      "gender": "male",
+      "image": "/doctors/doc8.png",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-03-20",
+      "slots_booked": {}
+    },
+    {
+      "_id": "doc9",
+      "name": "Dr. Ava Mitchell",
+      "email": "ava.mitchell@banglaralo.hospital.bd",
+      "phone": "+880 1716-100009",
+      "fee": "450",
+      "fees": 30,
+      "age": "35",
+      "specialist": "Dermatologist",
+      "speciality": "Dermatologist",
+      "address": {
+        "line1": "Plot 15, Sector 7, Uttara",
+        "line2": "Dhaka-1230"
+      },
+      "degree": "MBBS, DDV",
+      "degrees": [
+        "MBBS",
+        "DDV"
+      ],
+      "experience": "1 Years",
+      "about": "Dr. Ava Mitchell specializes in clinical dermatology, laser therapy, and treatments for common to complex skin conditions.",
+      "salary": "140000",
+      "time": "09:00 AM - 01:00 PM",
+      "gender": "female",
+      "image": "/doctors/doc9.png",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-04-01",
+      "slots_booked": {}
+    },
+    {
+      "_id": "doc10",
+      "name": "Dr. Jeffrey King",
+      "email": "jeffrey.king@banglaralo.hospital.bd",
+      "phone": "+880 1815-100010",
+      "fee": "500",
+      "fees": 40,
+      "age": "40",
+      "specialist": "Pediatricians",
+      "speciality": "Pediatricians",
+      "address": {
+        "line1": "Road 11, Banani",
+        "line2": "Dhaka-1213"
+      },
+      "degree": "MBBS, DCH",
+      "degrees": [
+        "MBBS",
+        "DCH",
+        "MRCPCH"
+      ],
+      "experience": "2 Years",
+      "about": "Dr. Jeffrey King provides compassionate care for infants, toddlers, and young children with complete developmental monitoring.",
+      "salary": "160000",
+      "time": "02:00 PM - 06:00 PM",
+      "gender": "male",
+      "image": "/doctors/doc10.png",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-04-10",
+      "slots_booked": {}
+    },
+    {
+      "_id": "doc11",
+      "name": "Dr. Zoe Kelly",
+      "email": "zoe.kelly@banglaralo.hospital.bd",
+      "phone": "+880 1913-100011",
+      "fee": "750",
+      "fees": 50,
+      "age": "46",
+      "specialist": "Neurologist",
+      "speciality": "Neurologist",
+      "address": {
+        "line1": "Sector 11, Uttara",
+        "line2": "Dhaka-1230"
+      },
+      "degree": "MBBS, MD (Neurology)",
+      "degrees": [
+        "MBBS",
+        "MD (Neurology)"
+      ],
+      "experience": "4 Years",
+      "about": "Dr. Zoe Kelly focuses on clinical neurology, neuro-muscular conditions, and preventative neurological care.",
+      "salary": "210000",
+      "time": "05:00 PM - 09:00 PM",
+      "gender": "female",
+      "image": "/doctors/doc11.png",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-04-20",
+      "slots_booked": {}
+    },
+    {
+      "_id": "doc12",
+      "name": "Dr. Patrick Harris",
+      "email": "patrick.harris@banglaralo.hospital.bd",
+      "phone": "+880 1614-100012",
+      "fee": "600",
+      "fees": 50,
+      "age": "42",
+      "specialist": "Gastroenterologist",
+      "speciality": "Gastroenterologist",
+      "address": {
+        "line1": "Bashundhara R/A Block C",
+        "line2": "Dhaka-1229"
+      },
+      "degree": "MBBS, FCPS (Gastro)",
+      "degrees": [
+        "MBBS",
+        "FCPS (Gastro)"
+      ],
+      "experience": "4 Years",
+      "about": "Dr. Patrick Harris delivers thorough liver and digestive disease consultations with evidence-based modern medical treatments.",
+      "salary": "195000",
+      "time": "06:00 PM - 09:30 PM",
+      "gender": "male",
+      "image": "/doctors/doc12.png",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-05-01",
+      "slots_booked": {}
+    },
+    {
+      "_id": "doc13",
+      "name": "Dr. Chloe Evans",
+      "email": "chloe.evans@banglaralo.hospital.bd",
+      "phone": "+880 1717-100013",
+      "fee": "500",
+      "fees": 50,
+      "age": "41",
+      "specialist": "General physician",
+      "speciality": "General physician",
+      "address": {
+        "line1": "Mirpur 10 Roundabout",
+        "line2": "Dhaka-1216"
+      },
+      "degree": "MBBS, MPH",
+      "degrees": [
+        "MBBS",
+        "MPH"
+      ],
+      "experience": "4 Years",
+      "about": "Dr. Chloe Evans provides empathetic primary medical consultations and holistic preventative health counseling.",
+      "salary": "155000",
+      "time": "09:00 AM - 01:00 PM",
+      "gender": "female",
+      "image": "/doctors/doc13.png",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-05-15",
+      "slots_booked": {}
+    },
+    {
+      "_id": "doc14",
+      "name": "Dr. Ryan Martinez",
+      "email": "ryan.martinez@banglaralo.hospital.bd",
+      "phone": "+880 1816-100014",
+      "fee": "650",
+      "fees": 60,
+      "age": "45",
+      "specialist": "Gynecologist",
+      "speciality": "Gynecologist",
+      "address": {
+        "line1": "Lalmatia Block B",
+        "line2": "Dhaka-1207"
+      },
+      "degree": "MBBS, MS",
+      "degrees": [
+        "MBBS",
+        "MS"
+      ],
+      "experience": "3 Years",
+      "about": "Dr. Ryan Martinez provides specialized gynecologic care and minimally invasive reproductive surgical services.",
+      "salary": "185000",
+      "time": "04:00 PM - 08:00 PM",
+      "gender": "male",
+      "image": "/doctors/doc14.png",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-06-01",
+      "slots_booked": {}
+    },
+    {
+      "_id": "doc15",
+      "name": "Dr. Amelia Hill",
+      "email": "amelia.hill@banglaralo.hospital.bd",
+      "phone": "+880 1914-100015",
+      "fee": "450",
+      "fees": 30,
+      "age": "37",
+      "specialist": "Dermatologist",
+      "speciality": "Dermatologist",
+      "address": {
+        "line1": "House 32, Road 11, Dhanmondi",
+        "line2": "Dhaka-1209"
+      },
+      "degree": "MBBS, DDV, FCPS",
+      "degrees": [
+        "MBBS",
+        "DDV",
+        "FCPS"
+      ],
+      "experience": "1 Years",
+      "about": "Dr. Amelia Hill focuses on complex skin conditions, pediatric dermatology, and cosmetic skin wellness.",
+      "salary": "150000",
+      "time": "10:30 AM - 02:30 PM",
+      "gender": "female",
+      "image": "/doctors/doc15.png",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-06-15",
+      "slots_booked": {}
+    },
+    {
+      "_id": "64f1a2b3c4d5e6f7a8b9c001",
+      "name": "Prof. Dr. Md. Rafiqul Islam",
+      "email": "dr.rafiqul@banglaralo.hospital.bd",
+      "phone": "+880 1711-234567",
+      "fee": "1500",
+      "fees": 75,
+      "age": "52",
+      "specialist": "General physician",
+      "speciality": "General physician",
+      "address": {
+        "line1": "House 24, Road 7, Dhanmondi",
+        "line2": "Dhaka-1205"
+      },
+      "degree": "MBBS (DMC), FCPS (Medicine), MD (Cardiology), FACC (USA)",
+      "degrees": [
+        "MBBS (DMC)",
+        "FCPS (Medicine)",
+        "MD (Cardiology)",
+        "FACC (USA)"
+      ],
+      "experience": "20+ Years",
+      "about": "Senior Consultant Cardiologist and Internal Medicine Specialist with over two decades of clinical experience in premier cardiac hospitals.",
+      "salary": "250000",
+      "time": "05:00 PM - 09:00 PM",
+      "gender": "male",
+      "image": "/doctors/doc1_rafiqul.jpg",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-01-15",
+      "slots_booked": {}
+    },
+    {
+      "_id": "64f1a2b3c4d5e6f7a8b9c002",
+      "name": "Dr. Farhana Yasmin",
+      "email": "dr.farhana@banglaralo.hospital.bd",
+      "phone": "+880 1819-345678",
+      "fee": "1200",
+      "fees": 60,
+      "age": "42",
+      "specialist": "Gynecologist",
+      "speciality": "Gynecologist",
+      "address": {
+        "line1": "Green Road, Panthapath",
+        "line2": "Dhaka-1205"
+      },
+      "degree": "MBBS (SSMC), FCPS (OBGYN), MS (Gynae), Fellow IVF",
+      "degrees": [
+        "MBBS (SSMC)",
+        "FCPS (OBGYN)",
+        "MS (Gynae)",
+        "Fellow IVF"
+      ],
+      "experience": "14+ Years",
+      "about": "Consultant Gynecologist & Infertility Specialist dedicated to high-risk pregnancy care and advanced endoscopic procedures.",
+      "salary": "200000",
+      "time": "04:00 PM - 08:00 PM",
+      "gender": "female",
+      "image": "/doctors/doc2_farhana.jpg",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-02-10",
+      "slots_booked": {}
+    },
+    {
+      "_id": "64f1a2b3c4d5e6f7a8b9c003",
+      "name": "Prof. Dr. Syed Anwar Hossain",
+      "email": "dr.anwar@banglaralo.hospital.bd",
+      "phone": "+880 1911-456789",
+      "fee": "1600",
+      "fees": 80,
+      "age": "58",
+      "specialist": "Neurologist",
+      "speciality": "Neurologist",
+      "address": {
+        "line1": "Sector 3, Uttara Model Town",
+        "line2": "Dhaka-1230"
+      },
+      "degree": "MBBS (DMC), MD (Neuro), PhD (Japan), FRCP (Glasgow)",
+      "degrees": [
+        "MBBS (DMC)",
+        "MD (Neuro)",
+        "PhD (Japan)",
+        "FRCP (Glasgow)"
+      ],
+      "experience": "25+ Years",
+      "about": "Eminent Professor of Neurology, treating stroke, neuromuscular diseases, epilepsy, and complicated spinal neurological disorders.",
+      "salary": "280000",
+      "time": "06:00 PM - 10:00 PM",
+      "gender": "male",
+      "image": "/doctors/doc3_anwar.jpg",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-03-05",
+      "slots_booked": {}
+    },
+    {
+      "_id": "64f1a2b3c4d5e6f7a8b9c004",
+      "name": "Dr. Nusrat Jahan Chowdhury",
+      "email": "dr.nusrat@banglaralo.hospital.bd",
+      "phone": "+880 1612-567890",
+      "fee": "1000",
+      "fees": 50,
+      "age": "38",
+      "specialist": "Pediatricians",
+      "speciality": "Pediatricians",
+      "address": {
+        "line1": "Block D, Bashundhara R/A",
+        "line2": "Dhaka-1229"
+      },
+      "degree": "MBBS (CMC), DCH, MD (Pediatrics), MRCPCH (UK)",
+      "degrees": [
+        "MBBS (CMC)",
+        "DCH",
+        "MD (Pediatrics)",
+        "MRCPCH (UK)"
+      ],
+      "experience": "11+ Years",
+      "about": "Associate Consultant in Pediatric Care and Neonatology, focusing on comprehensive child growth monitoring and childhood illnesses.",
+      "salary": "180000",
+      "time": "10:00 AM - 02:00 PM",
+      "gender": "female",
+      "image": "/doctors/doc4_nusrat.jpg",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-04-12",
+      "slots_booked": {}
+    },
+    {
+      "_id": "64f1a2b3c4d5e6f7a8b9c005",
+      "name": "Dr. Tariqul Alam",
+      "email": "dr.tariqul@banglaralo.hospital.bd",
+      "phone": "+880 1715-678901",
+      "fee": "1300",
+      "fees": 65,
+      "age": "46",
+      "specialist": "General physician",
+      "speciality": "General physician",
+      "address": {
+        "line1": "Mirpur DOHS, Road 4",
+        "line2": "Dhaka-1216"
+      },
+      "degree": "MBBS, MS (Orthopedics), FACS (USA), AO Fellow",
+      "degrees": [
+        "MBBS",
+        "MS (Orthopedics)",
+        "FACS (USA)",
+        "AO Fellow"
+      ],
+      "experience": "16+ Years",
+      "about": "Orthopedic & Trauma Specialist with expertise in arthroscopic reconstruction, joint care, and musculoskeletal injury recovery.",
+      "salary": "220000",
+      "time": "05:00 PM - 09:00 PM",
+      "gender": "male",
+      "image": "/doctors/doc5_tariqul.jpg",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-05-20",
+      "slots_booked": {}
+    },
+    {
+      "_id": "64f1a2b3c4d5e6f7a8b9c006",
+      "name": "Dr. Shahedul Karim",
+      "email": "dr.shahed@banglaralo.hospital.bd",
+      "phone": "+880 1814-789012",
+      "fee": "1100",
+      "fees": 55,
+      "age": "44",
+      "specialist": "Gastroenterologist",
+      "speciality": "Gastroenterologist",
+      "address": {
+        "line1": "Shantinagar, Circular Road",
+        "line2": "Dhaka-1217"
+      },
+      "degree": "MBBS (DMC), FCPS (Surgery), FMAS",
+      "degrees": [
+        "MBBS (DMC)",
+        "FCPS (Surgery)",
+        "FMAS"
+      ],
+      "experience": "13+ Years",
+      "about": "Laparoscopic and gastrointestinal general surgeon performing advanced hernia, gallbladder, and abdominal minimally invasive procedures.",
+      "salary": "210000",
+      "time": "06:30 PM - 09:30 PM",
+      "gender": "male",
+      "image": "/doctors/doc6_shahed.jpg",
+      "available": true,
+      "approved": "true",
+      "created_at": "2023-06-01",
+      "slots_booked": {}
+    }
+  ],
+  "appointments": [
+    {
+      "_id": "appt_1794140345138",
+      "userId": "user_tanvir",
+      "docId": "doc1",
+      "docData": {
+        "_id": "doc1",
+        "name": "Dr. Richard James",
+        "email": "richard.james@banglaralo.hospital.bd",
+        "phone": "+880 1711-100001",
+        "fee": "500",
+        "fees": 50,
+        "age": "45",
+        "specialist": "General physician",
+        "speciality": "General physician",
+        "address": {
+          "line1": "17th Cross, Panthapath",
+          "line2": "Dhanmondi, Dhaka-1205"
+        },
+        "degree": "MBBS, FCPS (Medicine)",
+        "degrees": [
+          "MBBS",
+          "FCPS (Medicine)"
+        ],
+        "experience": "4 Years",
+        "about": "Dr. Richard James has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
+        "salary": "150000",
+        "time": "09:00 AM - 01:00 PM",
+        "gender": "male",
+        "image": "/doctors/doc1.png",
+        "available": true,
+        "approved": "true",
+        "created_at": "2023-01-10",
+        "slots_booked": {
+          "15_11_2026": [
+            "10:30 am"
+          ]
+        }
+      },
+      "userData": {
+        "_id": "user_tanvir",
+        "name": "Mohammad Tanvir Ahmed",
+        "email": "tanvir.ahmed.bd@gmail.com",
+        "password": "password123",
+        "phone": "+880 1711-887766",
+        "address": {
+          "line1": "House 14, Road 4, Dhanmondi",
+          "line2": "Dhaka-1205"
+        },
+        "gender": "Male",
+        "dob": "1992-05-14",
+        "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=400&q=80"
+      },
+      "slotDate": "15_11_2026",
+      "slotTime": "10:30 am",
+      "amount": 50,
+      "date": 1794140345138,
+      "cancelled": false,
+      "payment": true,
+      "isCompleted": false,
+      "patientName": "Mohammad Tanvir Ahmed",
+      "email": "tanvir.ahmed.bd@gmail.com",
+      "phone": "+880 1711-887766",
+      "age": "32",
+      "gender": "Male",
+      "doctorName": "Dr. Richard James",
+      "doctorEmail": "richard.james@banglaralo.hospital.bd",
+      "specialist": "General physician",
+      "fee": "50",
+      "time": "10:30 am",
+      "address": "House 14, Road 4, Dhanmondi, Dhaka-1205",
+      "problem": "Medical Consultation & Routine Health Checkup",
+      "status": "Confirmed",
+      "created_at": "2026-11-08T12:19:05.140Z"
+    },
+    {
+      "_id": "64f1b2c3d4e5f6a7b8c90001",
+      "userId": "user_tanvir",
+      "docId": "doc1",
+      "patientName": "Mohammad Tanvir Ahmed",
+      "email": "tanvir.ahmed.bd@gmail.com",
+      "phone": "+880 1711-887766",
+      "age": "34",
+      "gender": "Male",
+      "doctorName": "Dr. Richard James",
+      "doctorEmail": "richard.james@banglaralo.hospital.bd",
+      "specialist": "General physician",
+      "speciality": "General physician",
+      "fee": "500",
+      "fees": 50,
+      "amount": 50,
+      "date": "2026-11-10",
+      "slotDate": "10_11_2026",
+      "slotTime": "10:30 am",
+      "time": "10:30 am",
+      "address": "House 14, Road 4, Dhanmondi, Dhaka",
+      "problem": "General Health Checkup & Blood Pressure Consultation",
+      "status": "Confirmed",
+      "cancelled": false,
+      "payment": true,
+      "isCompleted": false,
+      "created_at": "2026-11-08T10:00:00Z"
+    },
+    {
+      "_id": "64f1b2c3d4e5f6a7b8c90002",
+      "userId": "user_rokeya",
+      "docId": "doc2",
+      "patientName": "Begum Rokeya Khatun",
+      "email": "rokeya.khatun@yahoo.com",
+      "phone": "+880 1819-223344",
+      "age": "56",
+      "gender": "Female",
+      "doctorName": "Dr. Emily Larson",
+      "doctorEmail": "emily.larson@banglaralo.hospital.bd",
+      "specialist": "Gynecologist",
+      "speciality": "Gynecologist",
+      "fee": "600",
+      "fees": 60,
+      "amount": 60,
+      "date": "2026-11-10",
+      "slotDate": "10_11_2026",
+      "slotTime": "04:30 pm",
+      "time": "04:30 pm",
+      "address": "Sector 7, Road 12, Uttara, Dhaka",
+      "problem": "Routine annual health screening and hormone level review",
+      "status": "Confirmed",
+      "cancelled": false,
+      "payment": true,
+      "isCompleted": false,
+      "created_at": "2026-11-08T11:30:00Z"
+    },
+    {
+      "_id": "64f1b2c3d4e5f6a7b8c90003",
+      "userId": "user_kamrul",
+      "docId": "doc5",
+      "patientName": "Md. Kamrul Hasan",
+      "email": "kamrul.hasan@gmail.com",
+      "phone": "+880 1912-334455",
+      "age": "45",
+      "gender": "Male",
+      "doctorName": "Dr. Jennifer Garcia",
+      "doctorEmail": "jennifer.garcia@banglaralo.hospital.bd",
+      "specialist": "Neurologist",
+      "speciality": "Neurologist",
+      "fee": "700",
+      "fees": 50,
+      "amount": 50,
+      "date": "2026-11-11",
+      "slotDate": "11_11_2026",
+      "slotTime": "06:15 pm",
+      "time": "06:15 pm",
+      "address": "Section 10, Mirpur, Dhaka-1216",
+      "problem": "Severe recurrent migraine headache and numbness in right fingers",
+      "status": "Cancelled",
+      "cancelled": true,
+      "payment": true,
+      "isCompleted": false,
+      "created_at": "2026-11-08T12:15:00Z"
+    }
+  ],
+  "users": [
+    {
+      "_id": "user_tanvir",
+      "name": "Mohammad Tanvir Ahmed",
+      "email": "tanvir.ahmed.bd@gmail.com",
+      "password": "password123",
+      "phone": "+880 1711-887766",
+      "address": {
+        "line1": "House 14, Road 4, Dhanmondi",
+        "line2": "Dhaka-1205"
+      },
+      "gender": "Male",
+      "dob": "1992-05-14",
+      "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=400&q=80"
+    }
+  ]
+}
