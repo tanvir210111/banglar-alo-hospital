@@ -1,5 +1,4 @@
 import appointment_img from './appointment_img.png'
-import header_img from './header_img.png'
 import group_profiles from './group_profiles.png'
 import profile_pic from './profile_pic.png'
 import contact_image from './contact_image.png'
@@ -37,14 +36,11 @@ import Gynecologist from './Gynecologist.svg'
 import Neurologist from './Neurologist.svg'
 import Pediatricians from './Pediatricians.svg'
 import header_hospital from './header_hospital.png'
-import banglar_alo_hospital_banner from './banglar_alo_hospital_banner.png'
 
 
 export const assets = {
     appointment_img,
-    header_img,
     header_hospital,
-    banglar_alo_hospital_banner,
     group_profiles,
     logo,
     chats_icon,
