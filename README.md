@@ -4,78 +4,60 @@ Full-stack modern Hospital Management & Patient Appointment Booking System.
 
 ---
 
-## 📁 Project Architecture
+## 📁 Project Architecture (Single Unified App)
 
 ```text
 Hospital/
-├── main-website/               # Patient Portal (Doctor appointments, departments, emergency, ambulance)
-│   └── client/                 # React (Vite) + Tailwind CSS Frontend
-│
-├── admin-panel/                # Hospital Admin & Staff Management System
-│   ├── client/                 # React (Vite) + Material UI (MUI) Dashboard
-│   └── server/                 # Express.js + Unified API Server (Syncs doctors, patients, appointments)
-│
-├── package.json                # Root automation scripts
-└── README.md                   # Documentation
+├── public/                 # Favicon, assets, logos
+├── src/
+│   ├── assets/             # Branding icons, images
+│   ├── components/         # Patient website components (Navbar, Header, Footer, Banner)
+│   ├── pages/              # Patient pages (Home, Departments, Doctors, Emergency, Ambulance, Contact, About)
+│   ├── admin/              # Complete Hospital Admin & Staff Management System (/admin)
+│   │   ├── Pages/          # Dashboard, Doctors, Patients, Appointments, Staffs
+│   │   └── utils/          # Admin helpers & visual assets
+│   ├── context/            # Global AppContext
+│   ├── App.jsx             # Unified React Router (/ for patient website, /admin for admin panel)
+│   ├── index.css           # Global & Tailwind styling
+│   └── main.jsx            # Unified React 18 entry point
+├── server/                 # Express.js backend API & JSON database (Doctors, Patients, Appointments)
+├── package.json            # Single root package.json for the entire project
+├── vite.config.js          # Root Vite build & dev config
+├── tailwind.config.js      # Tailwind CSS configuration
+├── vercel.json             # Vercel SPA routing
+└── .vercelignore           # Excludes backend from frontend build
 ```
 
 ---
 
 ## 🚀 Quick Start (Local Run)
 
-Run any service directly from the root `Hospital/` directory:
+Run both the frontend and backend together with a single command:
 
-| Action | Command | URL |
+```bash
+npm run dev
+```
+
+| Portal | URL | Description |
 | :--- | :--- | :--- |
-| **Run All Services** | `npm run dev` | Everything together |
-| **Patient Website** | `npm run dev:website` | http://localhost:5173 |
-| **Admin Panel** | `npm run dev:admin` | http://localhost:5174 |
-| **Backend API Server** | `npm run dev:server` | http://localhost:5000 |
-| **Build Patient Website** | `npm run build:website` | Production build |
-| **Build Admin Panel** | `npm run build:admin` | Production build |
+| **Main Patient Website** | [http://localhost:5173/](http://localhost:5173/) | Patient appointment booking, emergency & ambulance |
+| **Admin Panel** | [http://localhost:5173/admin](http://localhost:5173/admin) | Hospital admin & doctors management |
+| **Backend API Server** | [http://localhost:5000/](http://localhost:5000/) | Unified REST API & data sync |
 
 ---
 
-## ⚡ How to Deploy on Vercel (Step-by-Step)
+## ⚡ 1-Click Deploy on Vercel
 
-Because this repository contains both the **Patient Website** and **Admin Panel**, you can deploy either one or both on Vercel in 2 minutes:
+There are **NO subdirectories to choose from**! Everything is in a single root project:
 
-### 1. Deploying the Patient Portal (`main-website`)
 1. Go to **[vercel.com](https://vercel.com/)** and click **Add New Project**.
-2. Select repository: `tanvir210111/banglar-alo-hospital`.
-3. In project settings:
-   - **Framework Preset:** `Vite`
-   - **Root Directory:** Click **Edit** and choose `main-website/client`
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
-4. Under **Environment Variables**, add:
-   - `VITE_BACKEND_URL`: Your live backend API URL (e.g. deployed on Render/Railway/Vercel) or temporary localhost.
-5. Click **Deploy**! ✅ *(Client-side routing rules are already pre-configured in `vercel.json`)*.
+2. Select your repository: `tanvir210111/banglar-alo-hospital`.
+3. Vercel will automatically detect **Vite** at root (`./`).
+4. Click **Deploy**! ✅ That's it!
 
----
-
-### 2. Deploying the Admin Panel (`admin-panel`)
-1. In Vercel, click **Add New Project** again and select the same repository.
-2. In project settings:
-   - **Framework Preset:** `Vite`
-   - **Root Directory:** Click **Edit** and choose `admin-panel/client`
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
-3. Under **Environment Variables**, add:
-   - `VITE_BACKEND_URL`: Your live backend API URL
-4. Click **Deploy**! ✅
-
----
-
-## 🌟 Key Features
-
-- **Banglar Alo Hospital Branding:** Fully custom logo, custom favicon, and responsive cinematic hospital hero banner.
-- **24/7 Multi-Service Portals:**
-  - Emergency & Trauma Unit with direct hotline (`10678`).
-  - Specialized 24/7 Ambulance dispatch request & tracking.
-  - Multi-specialty clinical departments (Cardiology, Gynecology, Pediatrics, Neurology, Gastroenterology, Dermatology).
-- **Full-Stack Data Synchronization:**
-  - Adding or approving a doctor in Admin Panel instantly updates the Patient Website.
-  - Patient bookings on Main Website reflect live in Admin Panel appointments.
-  - Appointment cancellations update status across both platforms.
-- **Location:** Puran Paltan, Dhaka, Bangladesh.
+Once deployed:
+- `https://your-domain.vercel.app/` ➡️ Main Patient Website
+- `https://your-domain.vercel.app/admin` ➡️ Admin Dashboard
+- `https://your-domain.vercel.app/departments` ➡️ Medical Departments
+- `https://your-domain.vercel.app/emergency` ➡️ 24/7 Emergency & ICU
+- `https://your-domain.vercel.app/ambulance` ➡️ Ambulance Dispatch
