@@ -29,7 +29,7 @@ function App() {
       {/* <AuthProvider>
 
       </AuthProvider> */}
-      <Router>
+      <Router basename="/admin">
         <Routes>
           {/* NESTED ROUTING APPLIED */}
           <Route path="/" element={<Dashboard />} >

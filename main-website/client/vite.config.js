@@ -11,6 +11,13 @@ export default defineConfig({
   plugins: [react()],
   root: __dirname,
   server: {
-    port: 5173
+    port: 5173,
+    proxy: {
+      '/admin': {
+        target: 'http://localhost:5174',
+        changeOrigin: true,
+        ws: true
+      }
+    }
   }
 })

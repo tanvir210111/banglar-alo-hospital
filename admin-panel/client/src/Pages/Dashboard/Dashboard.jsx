@@ -141,9 +141,7 @@ export default function NewHeader() {
                         variant="outlined"
                         color="primary"
                         size="small"
-                        href={import.meta.env.VITE_MAIN_WEBSITE_URL || "http://localhost:5173"}
-                        target="_blank"
-                        rel="noreferrer"
+                        href={import.meta.env.VITE_MAIN_WEBSITE_URL || "/"}
                         startIcon={<LanguageIcon />}
                         sx={{ textTransform: 'none', borderRadius: '20px', fontWeight: 'bold' }}
                     >
@@ -363,9 +361,7 @@ export default function NewHeader() {
                     </NavLink>
 
                     <a
-                        href={import.meta.env.VITE_MAIN_WEBSITE_URL || "http://localhost:5173"}
-                        target="_blank"
-                        rel="noreferrer"
+                        href={import.meta.env.VITE_MAIN_WEBSITE_URL || "/"}
                         style={{ textDecoration: 'none', width: '100%', color: '#000', marginTop: '10px', display: 'block' }}
                     >
                         <ListItem disablePadding>

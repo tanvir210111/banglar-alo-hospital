@@ -2,7 +2,8 @@
   "name": "hospital-workspace",
   "version": "1.0.0",
   "private": true,
-  "description": "Hospital Management & Patient Appointment System Workspace",
+  "type": "module",
+  "description": "Banglar Alo Hospital - Unified Full-Stack Workspace",
   "scripts": {
     "dev": "concurrently -n \"SERVER,WEBSITE,ADMIN\" -c \"yellow,blue,green\" \"npm run dev:server\" \"npm run dev:website\" \"npm run dev:admin\"",
     "start": "npm run dev",
@@ -10,7 +11,9 @@
     "dev:admin": "npm --prefix admin-panel/client run dev",
     "dev:server": "npm --prefix admin-panel/server run start",
     "build:website": "npm --prefix main-website/client run build",
-    "build:admin": "npm --prefix admin-panel/client run build"
+    "build:admin": "npm --prefix admin-panel/client run build",
+    "build": "npm run build:website && npm run build:admin && node scripts/copy-admin-build.js",
+    "build:unified": "npm run build"
   },
   "devDependencies": {
     "concurrently": "^10.0.7"
